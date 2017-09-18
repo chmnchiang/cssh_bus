@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>清水高中附近公車到站預估時間</title>
+        <link rel="stylesheet" href="semantic/dist/semantic.min.css" type="text/css" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+    </head>
+
+    <body>
+        <div id="app" class="ui container">
+            <div class="ui segments">
+                <div id="progress" class="ui top attached green progress">
+                    <div class="bar"> </div>
+                </div>
+                <div class="ui segment" style="text-align: center;">
+                    <h1>清水高中附近公車到站預估時間</h1>
+                </div>
+
+                <div class="ui segment" v-for="route of routes">
+                    <div class="ui grid">
+                        <div class="four wide center aligned column no-vertical-padding">
+                            <div class="ui basic segment">
+                                <div class="ui horizontal statistic">
+                                    <i class="warning icon"></i>
+                                    <div class="value">
+                                        {{ route.eta }}
+                                    </div>
+                                    <div class="label">
+                                        分
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="three wide left aligned column no-vertical-padding">
+                            <div style="display: flex; align-items: center; height: 100%;">
+                                <span class="route-name"> {{ route.route.name }} </span>
+                            </div>
+                        </div>
+                        <div class="five wide left aligned column no-vertical-padding">
+                            <div style="display: flex; align-items: center; height: 100%;">
+                                <span class="route-to">
+                                    <i class="caret right icon"></i>
+                                    {{ route.route.to }}
+                                </span>
+                            </div>
+                        </div>
+                        <div class="three wide left aligned column no-vertical-padding">
+                            <div style="display: flex; align-items: center; height: 100%; justify-content: flex-end;">
+                                <p class="route-stop-name"> {{ route.route.stop_name + ' 站' }} </p>
+                            </div>
+                        </div>
+                        <div class="one wide column"> </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="warning-area" class="ui red inverted segment">
+                <p>
+                    <i class="warning sign icon"></i>
+                    此為預估時間，實際到站時間受交通狀況影響。
+                </p>
+            </div>
+
+        </div>
+
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="semantic/dist/semantic.min.js"></script>
+        <script src="js/vue.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>

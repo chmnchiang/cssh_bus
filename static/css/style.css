@@ -1,0 +1,41 @@
+body {
+    background-image: url("/img/cssh.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+
+    font-family: "Lato,'Helvetica Neue',Arial,Helvetica,'Source Han Sans TC','Noto Sans TC',sans-serif"
+}
+
+#app {
+    margin-top: 3%;
+    max-width: 800px !important;
+}
+
+#warning-area {
+    position: absolute;
+    width: 20%;
+    bottom: 20%;
+    right: 20px;
+}
+
+.no-vertical-padding {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.route-name {
+    font-size: 2rem;
+    vertical-align: middle;
+    margin-left: 20%;
+}
+
+.route-to {
+    vertical-align: middle;
+    font-size: 1.4rem;
+}
+
+.route-stop-name {
+    vertical-align: middle;
+    font-size: 1.5rem;
+}

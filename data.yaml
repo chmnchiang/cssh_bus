@@ -1,0 +1,84 @@
+---
+- name: "657"
+  to: "華江橋"
+  rid: 10164
+  sec: 0
+  stop_id: 7
+  stop_name: "清水高中"
+
+- name: "657"
+  to: "宏國科技大學"
+  rid: 10164
+  sec: 1
+  stop_id: 33
+  stop_name: "清水高中"
+
+- name: "657延"
+  to: "華江橋"
+  rid: 16685
+  sec: 0
+  stop_id: 7
+  stop_name: "清水高中"
+
+- name: "657延"
+  to: "宏國科技大學"
+  rid: 16685
+  sec: 1
+  stop_id: 36
+  stop_name: "清水高中"
+
+- name: "藍17"
+  to: "捷運永寧站"
+  rid: 16464
+  sec: 0
+  stop_id: 27
+  stop_name: "清水高中"
+
+- name: "藍17"
+  to: "五福站"
+  rid: 16464
+  sec: 0
+  stop_id: 12
+  stop_name: "清水高中"
+
+- name: "藍41"
+  to: "雙和醫院"
+  rid: 16735
+  sec: 0
+  stop_id: 11
+  stop_name: "明德路"
+
+- name: "藍41"
+  to: "捷運海山站"
+  rid: 16735
+  sec: 1
+  stop_id: 9
+  stop_name: "明德路"
+
+- name: "藍40"
+  to: "土城"
+  rid: 16601
+  sec: 0
+  stop_id: 5
+  stop_name: "明德路"
+
+- name: "藍40"
+  to: "華克山莊"
+  rid: 16601
+  sec: 1
+  stop_id: 9
+  stop_name: "明德路"
+
+- name: "275"
+  to: "松山機場"
+  rid: 16581
+  sec: 0
+  stop_id: 7
+  stop_name: "永豐路口"
+
+- name: "275"
+  to: "宏國德霖科技大學"
+  rid: 16581
+  sec: 1
+  stop_id: 52
+  stop_name: "永豐路口"
